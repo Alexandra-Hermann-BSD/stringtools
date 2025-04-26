@@ -1,0 +1,25 @@
+{
+  "name": "ahbsd/string_tools",
+  "description": "A collection of string manipulation tools for PHP.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandra Hermann",
+      "email": "alex.hermann@dev.hermann-bsd.de",
+      "homepage": "https://hermann-bsd.de",
+      "role": "Developer"
+    }
+  ],
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {"ahbsd\\": "src/"}
+  },
+  "require": {
+    "php": "^8.0",
+    "monolog/monolog": "^3.8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.4.1"
+  }
+}
